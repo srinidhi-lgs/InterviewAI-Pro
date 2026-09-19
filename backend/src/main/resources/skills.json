@@ -1,0 +1,20 @@
+{
+  "technical_skills": [
+    "Java", "Python", "C", "C++", "C#", "JavaScript", "TypeScript", "SQL", "Go", "Rust", "PHP", "Kotlin", "Swift", "Ruby", "HTML", "CSS", "REST API"
+  ],
+  "frameworks": [
+    "Spring", "Spring Boot", "Hibernate", "React", "Next", "Angular", "Vue", "Node", "Express", "Tailwind", "Bootstrap", "Django", "Flask", "Laravel", "Nest"
+  ],
+  "databases": [
+    "MySQL", "PostgreSQL", "MongoDB", "Oracle", "SQLite", "Firebase", "Redis", "SQL Server", "Cassandra", "Elasticsearch", "DynamoDB"
+  ],
+  "cloud": [
+    "AWS", "Amazon Web Services", "Azure", "GCP", "Google Cloud", "Docker", "Kubernetes", "Terraform", "CI/CD", "Jenkins", "GitHub Actions"
+  ],
+  "tools": [
+    "Git", "GitHub", "GitLab", "Bitbucket", "Jira", "Confluence", "Postman", "Linux", "Unix", "Bash", "Agile", "Scrum", "VS Code", "Maven", "Gradle", "Figma"
+  ],
+  "soft_skills": [
+    "Leadership", "Communication", "Teamwork", "Problem Solving", "Critical Thinking", "Time Management", "Mentoring", "Collaboration", "Adaptability"
+  ]
+}

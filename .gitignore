@@ -1,0 +1,52 @@
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Backend
+backend/target/
+backend/uploads/
+backend/.env
+backend/.env.*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Local development files
+backend/jdk-21.zip
+backend/*.class
+backend/*.log
+backend/extracted_resume_full.txt
+
+# Temporary backend scripts/tests
+backend/Test.java
+backend/TestMatcher.java
+backend/EndToEndTest.java
+backend/generate_dtos.js
+backend/generate_entities.js
+backend/test.js
+backend/test_question.js
+
+# Temporary frontend/debug scripts
+frontend/debug_*.js
+frontend/find_missing_imports.js
+frontend/generate_steps.js
+frontend/test_*.js

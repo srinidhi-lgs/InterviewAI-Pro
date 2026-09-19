@@ -1,0 +1,65 @@
+[
+  {
+    "category": "Java",
+    "difficulty": "Easy",
+    "questionText": "What are the core features of Object-Oriented Programming in Java?",
+    "expectedKeywords": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+    "sampleAnswer": "The core features of OOP in Java are Encapsulation (hiding data), Inheritance (reusing code), Polymorphism (one interface, multiple implementations), and Abstraction (hiding complexity)."
+  },
+  {
+    "category": "Java",
+    "difficulty": "Medium",
+    "questionText": "Explain the difference between HashMap and ConcurrentHashMap.",
+    "expectedKeywords": ["Thread-safe", "Synchronization", "Locks", "Segment", "Performance"],
+    "sampleAnswer": "HashMap is not thread-safe and allows one null key. ConcurrentHashMap is thread-safe and uses fine-grained locking (segment locks or node locks in Java 8+) to allow concurrent reads and writes without locking the entire map, improving performance in multi-threaded environments."
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "questionText": "What is the purpose of the @SpringBootApplication annotation?",
+    "expectedKeywords": ["Configuration", "EnableAutoConfiguration", "ComponentScan", "Entry point"],
+    "sampleAnswer": "@SpringBootApplication is a convenience annotation that combines @Configuration, @EnableAutoConfiguration, and @ComponentScan. It marks the main class of a Spring Boot application and triggers auto-configuration and component scanning."
+  },
+  {
+    "category": "Spring Boot",
+    "difficulty": "Medium",
+    "questionText": "How does Spring Dependency Injection work?",
+    "expectedKeywords": ["Inversion of Control", "IoC container", "Autowired", "Constructor injection", "Setter injection"],
+    "sampleAnswer": "Spring DI works through the Inversion of Control (IoC) principle. The Spring container manages the lifecycle of beans and injects dependencies using constructor injection, setter injection, or field injection (via @Autowired). This decouples classes from their dependencies."
+  },
+  {
+    "category": "React",
+    "difficulty": "Easy",
+    "questionText": "What is a React Hook, and can you name a few common ones?",
+    "expectedKeywords": ["useState", "useEffect", "Functional components", "State", "Lifecycle"],
+    "sampleAnswer": "React Hooks are functions that let you 'hook into' React state and lifecycle features from functional components. Common ones include useState (for state), useEffect (for side effects), and useContext (for context API)."
+  },
+  {
+    "category": "React",
+    "difficulty": "Medium",
+    "questionText": "Explain the Virtual DOM in React.",
+    "expectedKeywords": ["In-memory representation", "Reconciliation", "Diffing algorithm", "Performance", "Real DOM"],
+    "sampleAnswer": "The Virtual DOM is an in-memory lightweight representation of the real DOM. When state changes, React updates the Virtual DOM, compares it with the previous version (diffing), and calculates the minimal set of changes needed to update the real DOM. This process, called Reconciliation, optimizes performance."
+  },
+  {
+    "category": "SQL",
+    "difficulty": "Easy",
+    "questionText": "What is the difference between INNER JOIN and LEFT JOIN?",
+    "expectedKeywords": ["Matches", "Unmatched", "Intersection", "All records from left"],
+    "sampleAnswer": "An INNER JOIN returns only the rows that have matching values in both tables. A LEFT JOIN returns all rows from the left table, and the matched rows from the right table. If there's no match, the right side will contain NULL values."
+  },
+  {
+    "category": "HR",
+    "difficulty": "Easy",
+    "questionText": "Tell me about a time you faced a difficult challenge at work and how you overcame it.",
+    "expectedKeywords": ["Challenge", "Action", "Result", "Problem solving", "Communication"],
+    "sampleAnswer": "In my previous project, we faced a tight deadline and a critical bug. I organized a quick triage meeting, divided the debugging tasks among the team, and communicated the delay risk to stakeholders. We identified a race condition, patched it, and delivered the project on time through effective teamwork."
+  },
+  {
+    "category": "DSA",
+    "difficulty": "Medium",
+    "questionText": "Explain the difference between a Stack and a Queue.",
+    "expectedKeywords": ["LIFO", "FIFO", "Push", "Pop", "Enqueue", "Dequeue"],
+    "sampleAnswer": "A Stack follows the Last-In-First-Out (LIFO) principle, where elements are added (pushed) and removed (popped) from the same end. A Queue follows the First-In-First-Out (FIFO) principle, where elements are added (enqueued) at the rear and removed (dequeued) from the front."
+  }
+]
