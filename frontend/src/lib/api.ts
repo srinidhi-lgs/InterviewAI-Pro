@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useAuthStore } from '../store/authStore';
 
-export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080/api/v1';
+export const API_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://interviewai-pro-pnhn.onrender.com/api/v1';
 
 export const api = axios.create({
   baseURL: API_URL,
